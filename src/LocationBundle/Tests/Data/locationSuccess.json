@@ -1,0 +1,21 @@
+{
+  "data": {
+    "locations": [
+      {
+        "name": "Eiffel Tower",
+        "coordinates": {
+          "lat": 21.12,
+          "lon": 19.56
+        }
+      },
+      {
+        "name": "Freedom Square",
+        "coordinates": {
+          "lat": 58.08,
+          "lon": 52.40
+        }
+      }
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,16 @@
+parameters:
+  uri_stored_location: http://location.loc/get-location
+
+services:
+  app.location.api:
+      class: LocationBundle\Service\Api
+      arguments:
+        - @app.request.client.guzzle
+        - @app.location.serializer
+      calls:
+        - [setUri, [%uri_stored_location%]]
+
+  app.location.serializer:
+      class: LocationBundle\Service\LocationSerializer
+      arguments:
+        - @serializer

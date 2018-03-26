@@ -1,0 +1,11 @@
+.env
+docker-compose.yml
+
+### PhpStorm ###
+# User-specific stuff:
+/.idea/
+.DS_Store
+error.log
+composer.phar
+/vendor/
+/phpunit.xml

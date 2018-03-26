@@ -1,0 +1,4 @@
+services:
+  app.request.client.guzzle:
+      class: RequestBundle\Service\ClientGuzzle
+

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "locations": [
+      {
+        "name": "Eiffel Tower",
+        "coordinates": {
+          "lat": 21.12,
+          "lon": 19.56
+        }
+      }
+    ]
+  }
+}

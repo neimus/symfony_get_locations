@@ -1,0 +1,23 @@
+{
+    "name": "neimus/test_8bitgroup",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "symfony/symfony": "3.2.*",
+        "guzzlehttp/guzzle": "6.3.*"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.0",
+        "phpunit/phpunit": "^5.5"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "component-dir": "web/assets"
+    }
+}
